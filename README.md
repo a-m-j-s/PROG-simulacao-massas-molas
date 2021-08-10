@@ -8,10 +8,31 @@ The system has two masses (m1 and m2) conected to each other and to a wall with 
 
 The equations are:
 
-- <img src="https://latex.codecogs.com/gif.latex?L=\frac{1}{2}m_1\dot{x}_1^2+\frac{1}{2}m_2\dot{x_2}_2^2-\frac{1}{2}K_1(x_1-l_1)^2-\frac{1}{2}K_2((x_2-x_1)-l_2)^2-\frac{1}{2}K_3(x_1-x_2+L-l_3)^2 " />
+- <img src="https://latex.codecogs.com/png.latex?L=\frac{1}{2}m_1\dot{x}_1^2+\frac{1}{2}m_2\dot{x_2}_2^2-\frac{1}{2}K_1(x_1-l_1)^2-\frac{1}{2}K_2((x_2-x_1)-l_2)^2-\frac{1}{2}K_3(x_1-x_2+L-l_3)^2 " />
 
-- <img src="https://latex.codecogs.com/gif.latex?\frac{d}{dt}\frac{\partial L}{\partial \dot{x_1}}-\frac{\partial L}{\partial x_1}=0 " /> 
+- <img src="https://latex.codecogs.com/png.latex?\frac{d}{dt}\frac{\partial L}{\partial \dot{x_1}}-\frac{\partial L}{\partial x_1}=0 " /> 
 
-- <img src="https://latex.codecogs.com/gif.latex?\frac{d}{dt}\frac{\partial L}{\partial \dot{x_2}}-\frac{\partial L}{\partial x_2}=0 " /> 
+- <img src="https://latex.codecogs.com/png.latex?\frac{d}{dt}\frac{\partial L}{\partial \dot{x_2}}-\frac{\partial L}{\partial x_2}=0 " /> 
+
+Description of the files:
+
+main.c - the functions that give the general apreance to the main window and the start, stop and reset buttons are in this file.
+
+menu_nova_janela.c - functions for the task bar.
+
+mudar_valor.c - functions to change the different variables for the two objets, three spings, scales, colors,...
+
+grafico.c - functions that draw the graphs of the objects coordinates in function of time.
+
+esquema_movimento.c - function that draw the representation of the system.
+
+funcao_mov.c - function that solves the equations numerically.
+
+funcao_mola.c - function that draws the springs.
+
+botoes.c - functions that are connected to the start, reset and stop buttons.
+
+escalas_valores.c - fucntions that create the sliders for the different values.
+
 
 
