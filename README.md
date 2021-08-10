@@ -10,9 +10,7 @@ The equations are:
 
 - <img src="https://latex.codecogs.com/png.latex?L=\frac{1}{2}m_1\dot{x}_1^2+\frac{1}{2}m_2\dot{x_2}_2^2-\frac{1}{2}K_1(x_1-l_1)^2-\frac{1}{2}K_2((x_2-x_1)-l_2)^2-\frac{1}{2}K_3(x_1-x_2+L-l_3)^2 " />
 
-- <img src="https://latex.codecogs.com/png.latex? \frac{d}{dt}\frac{\delta L}{\delta \dot{x_1}}-\frac{\delta L}{\delta x_1}=0 " /> 
-
-- <img src="https://latex.codecogs.com/png.latex ?\frac{d}{dt}\frac{\partial L}{\partial \dot{x_2}}-\frac{\partial L}{\partial x_2}=0 " /> 
+- <img src="https://latex.codecogs.com/png.latex?L=\frac{1}{2}m_1\dot{x}_1^2+\frac{1}{2}m_2\dot{x_2}_2^2-\frac{1}{2}K_1(x_1-l_1)^2-\frac{1}{2}K_2((x_2-x_1)-l_2)^2-\frac{1}{2}K_3(x_1-x_2+L-l_3)^2 " />
 
 Description of the files:
 
